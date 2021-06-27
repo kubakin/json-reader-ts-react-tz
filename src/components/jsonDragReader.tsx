@@ -47,7 +47,14 @@ function JsonDragReader() {
       reader.readAsText(file);
       reader.onload = () => {
           let result = reader.result as string;
-          let jsn = JSON.parse(result);
+          let jsn = '';
+          try {
+          jsn = JSON.parse(result);
+        }
+        catch(e) {
+          showHideError('Неверный формат');
+              setLoad(false);
+        }
           if (jsn !== undefined) {
             dfs(jsn);
         }
