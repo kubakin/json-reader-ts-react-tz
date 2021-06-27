@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/json-reader-ts-react-tz/static/css/main.f42d5260.chunk.css",
+    "main.js": "/json-reader-ts-react-tz/static/js/main.fc0fc45a.chunk.js",
+    "main.js.map": "/json-reader-ts-react-tz/static/js/main.fc0fc45a.chunk.js.map",
+    "runtime-main.js": "/json-reader-ts-react-tz/static/js/runtime-main.547c0f53.js",
+    "runtime-main.js.map": "/json-reader-ts-react-tz/static/js/runtime-main.547c0f53.js.map",
+    "static/js/2.e29d6dfa.chunk.js": "/json-reader-ts-react-tz/static/js/2.e29d6dfa.chunk.js",
+    "static/js/2.e29d6dfa.chunk.js.map": "/json-reader-ts-react-tz/static/js/2.e29d6dfa.chunk.js.map",
+    "index.html": "/json-reader-ts-react-tz/index.html",
+    "static/css/main.f42d5260.chunk.css.map": "/json-reader-ts-react-tz/static/css/main.f42d5260.chunk.css.map",
+    "static/js/2.e29d6dfa.chunk.js.LICENSE.txt": "/json-reader-ts-react-tz/static/js/2.e29d6dfa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.547c0f53.js",
+    "static/js/2.e29d6dfa.chunk.js",
+    "static/css/main.f42d5260.chunk.css",
+    "static/js/main.fc0fc45a.chunk.js"
+  ]
+}
