@@ -1,3 +1,49 @@
+<h1>Техническое задание для IT-park</h1>
+<p>Технологии: react, redux, typescript, sass</p>
+Попробовать <a href='https://kubakin.github.io/json-reader-ts-react-tz/'>https://kubakin.github.io/json-reader-ts-react-tz/</a>
+<p>Пример входных данных:</p>
+<p>
+Разработайте и внедрите веб-приложение, которое отображает список пользователей, участвующих в обсуждении. Обсуждения хранятся в файлах JSON.
+При запуске приложение предлагает пользователю перетащить файл данных.
+</p>
+<p>
+
+Когда пользователь перетаскивает файл, приложение отображает список пользователей и заголовок, содержащий имя файла.
+</p>
+<ul>Требования</ul>
+<li>Каждый пользователь должен быть представлен только один раз.</li>
+<li>Список должен быть упорядочен в алфавитном порядке.</li>
+<li>Должна быть возможность удалить пользователя из списка, нажав кнопку с крестиком рядом с именем пользователя.</li>
+<li>Приложение должно оставаться отзывчивым и не зависать. Файл данных может содержать до 100 000 записей.</li>
+<li>Приложение должно быть реализовано на JavaScript или TypeScript и использовать библиотеку React. Он должен правильно работать в Chrome версии 79 или выше.</li>
+<p>
+Формат данных:</p>
+Запись обсуждения может содержать следующие поля: user, comment и replies. Поле пользователя содержит имя пользователя, оставившего комментарий. Поле ответов - это массив записей.
+</p>
+<pre>
+  {
+    "user": "Jay",
+    "comment": "Can anyone think of a short synonym for \"followed by\"?",
+    "replies": [
+        {
+            "user": "André",
+            "comment": "And.",
+            "replies": [
+                {
+                    "user": "Jay",
+                    "comment": "Interesting thought! Will consider that."
+                }
+            ]
+        },
+        {
+            "user": "Brian",
+            "comment": "\"Henceforth\". Go old English for the whole thing!"
+        }
+    ]
+}
+
+ </pre>
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
