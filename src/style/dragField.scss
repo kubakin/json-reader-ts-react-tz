@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+
+.app .json-drag-app {
+    width: 50%;
+    height: 50%;
+    min-width: 300px;
+    min-height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dragField {
+    border: $borderStyle $noneActiveBorder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    height: 60%;
+    background-color: white;
+    transition: border-color $baseTransition;
+}
+
+.shadow + .json-drag-app .dragField {
+    border: $borderStyle $activeBorder;
+    transition: border-color $baseTransition;
+
+
+}
